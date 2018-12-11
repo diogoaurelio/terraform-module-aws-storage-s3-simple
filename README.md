@@ -25,7 +25,7 @@ Example usage:
 
 ```hcl
 module "dev_bucket" {
-  source                            = "github.com/diogoaurelio/terraform-module-aws-compute-eks-cluster-control-plane"
+  source                            = "github.com/diogoaurelio/terraform-module-aws-storage-s3-simple"
   version                           = "v0.0.1"
   region                            = "eu-west-1"
   environment                       = "dev"
